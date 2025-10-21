@@ -1,0 +1,580 @@
+[
+  {
+    "timestamp": "2025-10-21T03:23:21Z",
+    "request_id": "1111111",
+    "account_id": "134319464995",
+    "application_name": "myapp",
+    "environment_id": "dev",
+    "resource_type": "vpc",
+    "request_type": "create",
+    "region": "us-west-2",
+    "status": "deployed",
+    "terraform_outputs": {
+      "azs": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "cgw_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "cgw_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_nat_gateway_route_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "database_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "database_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "default_network_acl_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "acl-0c78d6ef9d41abb91"
+      },
+      "default_route_table_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "rtb-014eb3f451c744eae"
+      },
+      "default_security_group_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "sg-05367b87b16f574a6"
+      },
+      "elasticache_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "elasticache_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "elasticache_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "elasticache_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "elasticache_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "elasticache_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "elasticache_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "intra_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "intra_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "intra_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "intra_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "intra_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "intra_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "intra_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "myapp-dev-poc"
+      },
+      "nat_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "nat_public_ips": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "natgw_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "natgw_interface_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "outpost_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "outpost_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "outpost_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "outpost_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "outpost_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "private_ipv6_egress_route_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_nat_gateway_route_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "private_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "private_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "public_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "public_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "public_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "public_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "public_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "public_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "public_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "redshift_public_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_route_table_association_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_route_table_ids": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_subnet_arns": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_subnet_objects": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_subnets": {
+        "sensitive": false,
+        "type": [
+          "tuple",
+          []
+        ],
+        "value": []
+      },
+      "redshift_subnets_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "redshift_subnets_ipv6_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      },
+      "this_customer_gateway": {
+        "sensitive": false,
+        "type": [
+          "object",
+          {}
+        ],
+        "value": {}
+      },
+      "vpc_arn": {
+        "sensitive": false,
+        "type": "string",
+        "value": "arn:aws:ec2:us-west-2:134319464995:vpc/vpc-08cf2bbd60c8a0144"
+      },
+      "vpc_cidr_block": {
+        "sensitive": false,
+        "type": "string",
+        "value": "10.0.0.0/16"
+      },
+      "vpc_enable_dns_hostnames": {
+        "sensitive": false,
+        "type": "bool",
+        "value": true
+      },
+      "vpc_enable_dns_support": {
+        "sensitive": false,
+        "type": "bool",
+        "value": true
+      },
+      "vpc_flow_log_cloudwatch_iam_role_arn": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "vpc_flow_log_destination_arn": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "vpc_flow_log_destination_type": {
+        "sensitive": false,
+        "type": "string",
+        "value": "cloud-watch-logs"
+      },
+      "vpc_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "vpc-08cf2bbd60c8a0144"
+      },
+      "vpc_instance_tenancy": {
+        "sensitive": false,
+        "type": "string",
+        "value": "default"
+      },
+      "vpc_ipv6_association_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "vpc_ipv6_cidr_block": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "vpc_main_route_table_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "rtb-014eb3f451c744eae"
+      },
+      "vpc_owner_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "134319464995"
+      },
+      "vpc_secondary_cidr_blocks": {
+        "sensitive": false,
+        "type": [
+          "list",
+          "string"
+        ],
+        "value": []
+      }
+    }
+  }
+]
