@@ -90,17 +90,17 @@
   "default_network_acl_id": {
     "sensitive": false,
     "type": "string",
-    "value": "acl-0c78d6ef9d41abb91"
+    "value": "acl-0828ea772c1bced53"
   },
   "default_route_table_id": {
     "sensitive": false,
     "type": "string",
-    "value": "rtb-014eb3f451c744eae"
+    "value": "rtb-088beebcabcdda141"
   },
   "default_security_group_id": {
     "sensitive": false,
     "type": "string",
-    "value": "sg-05367b87b16f574a6"
+    "value": "sg-0b68fc28cebd91fa8"
   },
   "elasticache_route_table_association_ids": {
     "sensitive": false,
@@ -494,12 +494,12 @@
   "vpc_arn": {
     "sensitive": false,
     "type": "string",
-    "value": "arn:aws:ec2:us-west-2:134319464995:vpc/vpc-08cf2bbd60c8a0144"
+    "value": "arn:aws:ec2:us-west-2:134319464995:vpc/vpc-03b2f2132afd61186"
   },
   "vpc_cidr_block": {
     "sensitive": false,
     "type": "string",
-    "value": "10.0.0.0/16"
+    "value": "10.1.0.0/16"
   },
   "vpc_enable_dns_hostnames": {
     "sensitive": false,
@@ -529,7 +529,7 @@
   "vpc_id": {
     "sensitive": false,
     "type": "string",
-    "value": "vpc-08cf2bbd60c8a0144"
+    "value": "vpc-03b2f2132afd61186"
   },
   "vpc_instance_tenancy": {
     "sensitive": false,
@@ -549,7 +549,7 @@
   "vpc_main_route_table_id": {
     "sensitive": false,
     "type": "string",
-    "value": "rtb-014eb3f451c744eae"
+    "value": "rtb-088beebcabcdda141"
   },
   "vpc_owner_id": {
     "sensitive": false,
