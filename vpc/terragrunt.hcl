@@ -10,7 +10,7 @@ locals {
 
   # Backend configuration
   aws_region = try(local.payload.RegionId, "us-east-1")
-  state_bucket_name = "${local.payload.ApplicationName}-${local.payload.EnvironmentId}-tfstate"
+  state_bucket_name = "${local.payload.ApplicationName}-${local.payload.EnvironmentId}-tfstate-134319464995"
   state_key = "vpc/terraform.tfstate"
   lock_table_name = "${local.payload.ApplicationName}-${local.payload.EnvironmentId}-tfstate-lock"
 }
